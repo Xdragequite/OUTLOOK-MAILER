@@ -95,8 +95,6 @@ def main():
     for email, path in zip(emails,filepaths):
           main_thread_container.append_params(email=email, content=content_text_path, subject=subject_text, file_path=path)
 
-    print(main_thread_container.container)
-
     with multiprocessing.Pool(processes=1) as pool:
         pool.map(send_email, main_thread_container.container)
 
