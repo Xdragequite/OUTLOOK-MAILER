@@ -11,7 +11,7 @@
 
 -pip install -r requirements.txt
 
--python netscape_to_json.py - > after starting this file drop path to your folder where cookies are contained ( do not forget to do a copy of your cookies before running)
+-python netscape_to_json.py - > after starting this file drop fodler path where cookies are contained ( do not forget to do a copy of your cookies before running)
 
 -python main.py
 
